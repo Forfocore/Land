@@ -7,72 +7,88 @@ html, body {
 }
 
 .Landing {
-	width: 100%;
 	font-family: 'Roboto', sans-serif;
-	color: #002460;
+	width: 100%;
+	color: #012461;
 }
 
 .Landing__header {
+	background-color: #012461;
 	margin-bottom: 94px;
-	background-color: #002460;
-	height: 500px;
+	height: 400px;
 	background-image: url('./images/background_image.png');
 	background-size: cover;
 }
 
-.Header_section {
+.Header__section {
 	width: 940px;
-	padding: 0 42px;
 	margin: 0 auto;
-
+	padding: 0 42px;
 }
 
-.Header_menu {
+.Header__menu {
 	padding: 24px 0;
-
 }
 
-.Menu_logotype {
+.Menu__logotype {
 	display: inline-block;
-
 }
 
-.Menu_list {
+.Menu__list {
+	margin-top: 32px;
 	display: inline-block;
 	float: right;
-	margin-top: 32px;
-
 }
 
-.Menu_link:	hover {
-	opacity: 1;
 
-}
-
-.Menu_link {
+.Menu__link {
+	font-weight: 900;
+	font-size: 24px;
 	margin-left: 24px;
 	color: white;
 	cursor: pointer;
-	font-weight: 900;
-	font-size: 24px;
 	opacity: .75;
 	transition: opacity ease .25s;
-
 }
 
-.Header_content {}
-.Content_info {
-	vertical-align: top;
-	display: inline-block;
-
+.Menu__link:hover {
+	opacity: 1;
 }
-.Content_text {}
-.Content_button {}
-.Button {}
-.Content_image {
+
+
+.Header__content {}
+
+.Content__info {
 	vertical-align: top;
 	display: inline-block;
 }
+
+.Content__text {
+	font-weight: 900;
+	font-size: 41px;
+	color: #ffffff;
+}
+
+.Content__button {
+	margin-top: 20%
+}
+
+.Button {
+	font-weight: 900;
+	font-size: 24px;
+	color: #012461;
+	cursor: pointer;
+	background-color: #ffffff;
+	padding: 12px;
+	border-radius: 5px; 
+
+}
+
+.Content__image {
+	vertical-align: top;
+	display: inline-block;
+}
+
 
 .Landing__content {
 	width: 100%;
@@ -80,18 +96,20 @@ html, body {
 
 .Content__section {
 	width: 940px;
-	padding: 0 42px;
 	margin: 0 auto;
+	padding: 0 42px;
 	margin-bottom: 96px;
 }
 
 .Section__title {
-	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
 	font-weight: 900;
 	margin-bottom: 24px;
 }
 
 .Section__text {
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -111,14 +129,14 @@ html, body {
 	margin-bottom: 16px;
 }
 
-.List__image img {
+.List__image .Image {
 	border-radius: 12px;
 }
 
 .List__title {
-	margin-bottom: 8px;
 	font-size: 24px;
 	font-weight: 700;
+	margin-bottom: 8px;
 	padding: 0 16px;
 }
 
@@ -129,6 +147,5 @@ html, body {
 }
 
 .Landing__footer {
-	background-color: #002460;
-
+	background-color: #012461;
 }
