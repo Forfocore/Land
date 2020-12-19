@@ -87,6 +87,7 @@ html, body {
 .Content__image {
 	vertical-align: top;
 	display: inline-block;
+
 }
 
 
@@ -115,6 +116,73 @@ html, body {
 }
 
 .Section__lists {}
+
+.Section__table {}
+
+.Table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Tr {
+	width: 100%;
+
+}
+
+.Th {
+	padding: 16px 24px;
+	font-size: 24px;
+	width: 50%;
+	border: 4px solid #f1f1f1;
+	text-align: left;
+}
+
+.Td {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Section__form {}
+
+.Form__item {
+	display: inline-block;
+	margin-right: 24px
+}
+
+.Form__item_end {
+	margin-right: 0;
+}
+
+.Form__label {
+	display: block;
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 8px;
+
+}
+
+.Form__input {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+	outline: none;
+	width: 330px;
+}
+
+.Form__select {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+	outline: none;
+	width: 387px;
+}
+
+.Form__button {
+	outline:none;
+	padding: 16px 24px;
+	border: 4px solid #002460;
+	background-color: #002460;
+	color: white;
+	font-weight: 900;
+}
 
 .List__block {
 	display: inline-block;
